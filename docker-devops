@@ -1,0 +1,44 @@
+docker installation steps
+==============================================================
+yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+
+
+yum-config-manager --enable docker-ce-tes
+
+sudo yum-config-manager --enable docker-ce-test
+
+yum install docker-ce docker-ce-cli containerd.io
+
+systemctl start docker
+
+docker run -it --name jenkins-server ubuntu /bin/bash
+=================================================================
+
+Git hub URL
+
+https://github.com/pandeyvishal1987/devopsdocs.git
+
+====================================================================
+
+or create a new repository on the command line
+
+echo "# devopsdocs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pandeyvishal1987/devopsdocs.git
+git push -u origin master
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+…or push an existing repository from the command line
+
+remote add origin https://github.com/pandeyvishal1987/devopsdocs.git
+git push -u origin master
+
+===============================================================================
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
