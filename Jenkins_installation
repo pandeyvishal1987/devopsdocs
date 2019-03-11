@@ -1,0 +1,18 @@
+Jenkins installations
+
+-Download JDK
+-Download and install tomcat
+-Set environmet variable for java
+-install missing package (apt-get install ttf-dejavu fontconfig)
+====================
+
+Jenkins URL:-
+
+http://172.17.0.2:8080/jenkins/
+
+================================
+
+user id for home system
+
+pandey1987
+pass: 1bc07is058$
